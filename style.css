@@ -1,0 +1,88 @@
+html, 
+/* This code controls the font of the text on the home page */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* This code deals with the hero image you see in the center of the home page */
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/2/2019/09/El-Perro-Negro-Glasgow-d58c0a9.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* This code will style specifically "Badum's Burger" text by changing things like the size of the font, color etc */
+.hero header {
+  font-size: 5em;
+  
+  margin-top: 0;
+  margin-bottom: 0.5em; 
+
+  color: beige;
+}
+/* This code similar to the code above will control the "Est 2022 text in the same way"*/
+.hero {
+  color: black;
+}
+/* Styles the navigation bar*/
+nav {
+  background-color: black;
+  overflow: hidden;
+}
+/* Styles the words within the navigation bar */
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Controls the color of the buttons on the navigation bar when the mouse is hovered over it */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Also adds some style by changing the color of the words as the mouse is hovered over the button */
+nav .active {
+  background-color: black;
+  color: white;
+}
+/* This code will control the aspects of the footer */ 
+footer {
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+/* Snapchat */
+.fa-snapchat {
+  color: white;
+}
+/* Instgram */
+.fa-instagram {
+  color: white;
+}
